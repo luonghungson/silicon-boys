@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  padding: 70px 70px;
 }
 article,
 aside,
@@ -4166,7 +4167,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -5211,7 +5212,8 @@ a.thumbnail.active {
   margin-top: 0;
 }
 .media,
-.media-body {
+.media-
+ {
   overflow: hidden;
   zoom: 1;
 }
@@ -6247,6 +6249,7 @@ button.close {
 }
 .carousel {
   position: relative;
+
 }
 .carousel-inner {
   position: relative;

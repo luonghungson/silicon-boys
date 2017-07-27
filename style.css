@@ -1,0 +1,16 @@
+#myCarousel img-fluid {
+  position : relative;
+  z-index: 2;
+}
+.slider {
+  width: 100%;
+  height: 400px;
+  margin: 7px ;
+}
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    z-index: 1;
+}
