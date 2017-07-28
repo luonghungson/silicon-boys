@@ -12,7 +12,7 @@
   padding: 20px;
   border: 0 50px;
 }
-#myCarousel img-fluid {
+#myCarousel{
   position : relative;
   z-index: 2;
 }
@@ -22,8 +22,14 @@
 .carousel.slide{
   background-color: #fff;
 }
-.carousel-inner .item img.slider {
+.carousel-inner .item img {
   height: 100%;
+  width: 100%;
+}
+.slider {
+  width: 90%;
+  height: 600px;
+  margin: 7px auto;
 }
 .carousel-control .glyphicon-menu-left,
 .carousel-control .glyphicon-menu-right {
@@ -35,5 +41,19 @@
 .item{
   width: auto;
   height: 350px;
-
+}
+.about{
+  padding: 70px;
+  text-align: center;
+}
+.video{
+  text-align: center;
+}
+h1{
+  color: #0001ff;
+  font-weight:  bolder;
+}
+.lead{
+  color: #666666;
+  font-family: serif;
 }

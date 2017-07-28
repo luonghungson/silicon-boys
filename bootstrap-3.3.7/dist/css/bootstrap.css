@@ -11,7 +11,7 @@ html {
 }
 body {
   margin: 0;
-  padding: 70px 70px;
+  padding: 150px 70px;
 }
 article,
 aside,
@@ -4607,7 +4607,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: #eff1f2;
 }
 .navbar-inverse .navbar-brand {
-  color: #008afc;
+  color: #666666;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4618,7 +4618,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #008afc;
+  color: #666666;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4628,8 +4628,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #008afc;
-  background-color: #adb4bc;
+  color: #666666;
+  background-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
