@@ -1087,7 +1087,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 input,
 button,
@@ -4200,7 +4200,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
+    display:   block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
@@ -4281,6 +4281,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 100px;
   font-size: 18px;
   line-height: 20px;
+
+  align-items: center;
 }
 .equal-image {
   margin-right: 20px;
@@ -4300,7 +4302,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
+    margin-left: 65px;
   }
 }
 .navbar-toggle {
@@ -4365,7 +4367,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: right;
+    float: left;
     margin: 0;
   }
   .navbar-nav > li {
